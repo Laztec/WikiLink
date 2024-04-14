@@ -1,0 +1,13 @@
+name: WikiLink
+version: '${project.version}'
+main: laz.wikilink.WikiLink
+api-version: '1.20'
+commands:
+  wiki:
+    description: Link to a specific Minecraft Wiki page
+    usage: |
+      Usage: /wiki <text>
+  simwiki:
+    description: Link to a specific SimPvP Wiki page
+    usage: |
+      Usage: /simwiki <text>
